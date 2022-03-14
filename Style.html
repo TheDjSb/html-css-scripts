@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>
+        Css Styling
+    </title>
+    <style>
+        .div {
+            background: linear-gradient(to right, rgb(60, 13, 20) 3px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.25) 7px, rgba(255, 255, 255, 0.25) 10px, transparent 12px, transparent 16px, rgba(255, 255, 255, 0.25) 17px, transparent 22px), url(cover.png);
+            box-shadow: 0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 0.5);
+            margin: auto;
+            border-radius: 5px;
+            width: 480px;
+            height: 680px;
+            color: white;
+        }
+        
+        .div:hover {
+            box-shadow: 0 0 5px -1px rgb(172, 15, 15), inset -1px 1px 2px rgba(147, 15, 15, 0.5);
+        }
+        
+        body {
+            display: flex;
+        }
+        
+        #web {
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 50px;
+            font-style: italic;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        
+        #author {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            font-style: italic;
+            margin-bottom: 50px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        #contain {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 50px;
+            text-align: center;
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div name="contain" class="div">
+        <div name="title" id="title">
+            <img style="padding: 20px;" src="logo.png" width="130px" height="50px" />
+            <h1 id="web">Web Technologies</h1>
+        </div>
+        <div name="author" id="author">
+            Author: Subarna Basnet
+        </div>
+        <div name="contains" id="contain">
+            <span style="text-decoration: underline;"> Contains: </span></br>
+            HTML CSS JS PHP
+        </div>
+    </div>
+
+
+</body>
+
+</html>
